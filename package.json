@@ -1,6 +1,6 @@
 {
   "name": "restify-cors-middleware2",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "author": "Datatrac Corporation",
   "license": "MIT",
   "description": "CORS middleware with full W3C spec support",
@@ -26,11 +26,11 @@
     "restify": "2.6.x - 8.x.x"
   },
   "devDependencies": {
-    "mocha": "^6.2.0",
-    "require-lint": "^1.1.2",
-    "restify": "^8.4.0",
+    "mocha": "^7.2.0",
+    "require-lint": "^1.4.1",
+    "restify": "^8.5.1",
     "should": "^13.2.3",
-    "standard": "^14.1.0",
+    "standard": "^14.3.4",
     "supertest": "^4.0.2"
   },
   "dependencies": {

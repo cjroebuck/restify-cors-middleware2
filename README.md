@@ -61,3 +61,9 @@ As per the spec, requests without an `Origin` will not receive any CORS headers.
 ## Compliance to the spec
 
 See [unit tests](https://github.com/DatatracCorporation/restify-cors-middleware2/tree/master/test) for examples of preflight and actual requests.
+
+## TypeScript declaration file support
+
+A basic declaration file has been added (thanks to Dane Horak), but we
+don't use TypeScript locally, so we have not validated it.  Let us know
+if there is more that can be added.
