@@ -25,6 +25,8 @@ declare namespace corsMiddleware {
     preflightMaxAge?: number;
     /** customize preflight request handling */
     preflightStrategy?: any;
+    /** override allowing credentials for the * origin */
+    allowCredentialsAllOrigins?: boolean;
   }
 
   interface CorsMiddleware {
